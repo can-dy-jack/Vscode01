@@ -10,8 +10,38 @@ body{
 /* 公共样式 */
 
 /* logo,搜索框，登录/注册开始   */
-
-
+.h-top{
+    height: 88px;position: relative;background: #ccc;
+}
+.h-top .logo{
+    height: 58px;width: 214px;display: block;
+    position: absolute;
+    left:0;top:15px;
+}
+.h-top .search{
+    width:330px ;height: 36px;border: 1px solid #ccc;
+    border-radius: 18px 18px 18px 18px;
+    background: #fff;
+    position: absolute;
+    left:50%;margin-left: -165px;top: 26px;
+    overflow: hidden;
+}
+.h-top .search .ipu1{
+    width: 260px;height: 36px;border: none;
+}
+.h-top .search .ipu2{
+    width: 63px;height: 36px;border: none;
+}
+.h-top .user{
+    width: 180px;height: 28px;line-height: 28px;
+    position: absolute;
+    right: 0;
+    top:30px;
+}
+.h-top .user a{
+    display: inline-block;width: 76px;height: 28px;text-align: center;
+    font-size: 16px;
+}
 /* logo,搜索框，登录/注册结束 */
 /* 导航 start*/
 
