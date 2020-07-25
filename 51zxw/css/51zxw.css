@@ -1,6 +1,8 @@
 body{
     background-color: #f3f3f3;font-size: 14px;
 }
+/*特殊——自己加的*/
+
 /*公共样式——class*/
 .content-box{
     width: 1200px;margin: 0 auto;
