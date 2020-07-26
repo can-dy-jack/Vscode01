@@ -6,6 +6,7 @@
 -webkit-box-sizing:border-box;/*webkit内核浏览器*/
 box-sizing: border-box;
 }
+
 body{font-size: 14px;font-family: "微软雅黑";color: #333333;background: #f3f3f3;}
 b{font-weight: normal;}
 i{font-style: normal;}
@@ -14,8 +15,6 @@ input,textarea,select{outline: none;}
 img{border: none;vertical-align: top;}
 li{list-style: none;}
 
-.f1{float: left;}
-.f2{float: right;}
 .c1{clear: both;}
 .clearfix::after{
     content: "";

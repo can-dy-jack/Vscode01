@@ -11,7 +11,7 @@ body{
 
 /* logo,搜索框，登录/注册开始   */
 .h-top{
-    height: 88px;position: relative;background: #ccc;
+    height: 88px;position: relative;
 }
 .h-top .logo{
     height: 58px;width: 214px;display: block;
@@ -19,7 +19,7 @@ body{
     left:0;top:15px;
 }
 .h-top .search{
-    width:330px ;height: 36px;border: 1px solid #ccc;
+    width: 327px;height: 36px;border: 1px solid #ccc;
     border-radius: 18px 18px 18px 18px;
     background: #fff;
     position: absolute;
@@ -27,22 +27,51 @@ body{
     overflow: hidden;
 }
 .h-top .search .ipu1{
-    width: 260px;height: 36px;border: none;
+    width: 260px;height: 36px;border: none;padding: 0 20px;
 }
 .h-top .search .ipu2{
-    width: 63px;height: 36px;border: none;
+    width: 60px;height: 36px;border: none;border-radius: 20px;
+    background: #acce22;
 }
 .h-top .user{
-    width: 180px;height: 28px;line-height: 28px;
+    width: 160px;height: 28px;line-height: 28px;
     position: absolute;
     right: 0;
     top:30px;
 }
 .h-top .user a{
     display: inline-block;width: 76px;height: 28px;text-align: center;
-    font-size: 16px;
+    font-size: 16px;color: #000;
 }
 /* logo,搜索框，登录/注册结束 */
 /* 导航 start*/
-
+nav{
+    background: #363636;
+}
+nav .nav-box{
+    height: 44px;line-height: 44px;text-align: center;
+}
+.nav-box .nav-l{
+    width: 800px;
+}
+.nav-box a{
+    display: block;float: left;
+    width: 80px;height: 44px;
+    color: #fff;
+}
+.nav-box .nav-l{
+    float: left;
+}
+.nav-box .nav-l a:hover{
+    font-size: 16px;color: #00aeff;
+}
+.nav-box .nav-r{
+    width: 240px;float: right;
+}
+.nav-box .nav-r a{
+    font-size: 16px;
+}
+.nav-box .nav-r a:hover{
+    background: #ca3333;
+}
 /* 导航 end */
