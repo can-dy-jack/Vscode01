@@ -74,4 +74,18 @@ nav .nav-box{
 .nav-box .nav-r a:hover{
     background: #ca3333;
 }
+/* 幻灯片开始 */
+.cs{
+    background: rgb(31, 31, 221);
+}
+.cs .content-box{
+    height: 330px;overflow: hidden;position: relative;
+}
+.hdp-img{
+    width: 3600px;position: absolute;left: 0;
+}
+.hdp-img a{
+    display: block;width: 1200px;height: 330px;
+}
+/* 幻灯片结束 */
 /* 导航 end */
