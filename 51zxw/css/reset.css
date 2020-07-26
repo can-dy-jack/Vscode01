@@ -7,7 +7,11 @@
 box-sizing: border-box;
 }
 
-body{font-size: 14px;font-family: "微软雅黑";color: #333333;background: #f3f3f3;}
+body{
+    font-size: 14px;font-family: "微软雅黑";
+    color: #333333;
+    background: #f3f3f3;
+}
 b{font-weight: normal;}
 i{font-style: normal;}
 a,a:hover,a:active{text-decoration: none;color: #333333;}
