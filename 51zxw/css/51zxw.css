@@ -7,6 +7,24 @@ body{
 .content-box{
     width: 1200px;margin: 0 auto;
 }
+.m-title{
+    width: 100%;height: 80px;line-height: 80px;text-align: center;font-size: 30px;
+    font-weight: 400;
+    background: url(../images/redline.png) no-repeat center;
+}
+.m-list a{
+    display: block;float: left;border-radius: 10px;box-shadow: 0 0 10px #ccc;
+    overflow: hidden;
+}
+.m-list a p{
+    height: 30px;line-height: 30px;padding: 0 10px;overflow: hidden;
+}
+.m-list a:hover{
+    filter: alpha(opacity=90);
+    -moz-opacity:0.9;
+    opacity:0.9;
+    color: blue;
+}
 /* 公共样式 */
 
 /* logo,搜索框，登录/注册开始   */
@@ -143,3 +161,14 @@ nav .nav-box{
     line-height: normal;padding-top: 25px;
 }
 /* 课程分类结束*/
+/* 最新课程开始*/
+.zxkc{
+    padding-top: 30px;
+}
+.zx-box a{
+    width: 270px;height: 240px;margin: 20px 15px;
+}
+.zx-box a img{
+    width: 270px;height: 210px;
+}
+/*最新课程结束 */
