@@ -107,5 +107,39 @@ nav .nav-box{
 /* 网站公告 */
 /* 幻灯片结束 */
 /* 课程分类开始 */
-
+.ycpxb{
+    height: 160px;background: #fff;padding-top: 22px;
+}
+.ycpxb a{
+    display: block;
+    width: 210px;height: 114px;float: left;border-radius: 15px;
+    margin: 0 15px;color: #fff;font-size: 24px;font-weight: 700;
+    text-align: center;line-height: 114px;overflow: hidden;
+    background: no-repeat 0 0/100% 100%;
+}
+.ycpxb a:hover{
+    background-size: 110% 110%;color: #fff;
+}
+.ycpxb .a1{
+    background-image: url(../images/otherFun1.jpg);
+}
+.ycpxb .a2{
+    background-image: url(../images/otherFun2.jpg);
+}
+.ycpxb .a3{
+    background-image: url(../images/otherFun3.jpg);
+}
+.ycpxb .a4{
+    background-image: url(../images/otherFun4.jpg);
+}
+.ycpxb .a5{
+    background-image: url(../images/otherFun5.jpg);
+}
+.ycpxb a span{
+    display: block;width: 100%;height: 100%;background: rgba(0, 0, 0,0.3);
+    text-shadow: 4px 2px 5px #000;
+}
+.ycpxb a .span1{
+    line-height: normal;padding-top: 25px;
+}
 /* 课程分类结束*/
