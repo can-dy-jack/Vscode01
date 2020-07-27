@@ -16,6 +16,9 @@ body{
     display: block;float: left;border-radius: 10px;box-shadow: 0 0 10px #ccc;
     overflow: hidden;
 }
+.m-list a img{
+    width: 100%;
+}
 .m-list a p{
     height: 30px;line-height: 30px;padding: 0 10px;overflow: hidden;
 }
@@ -169,6 +172,17 @@ nav .nav-box{
     width: 270px;height: 240px;margin: 20px 15px;
 }
 .zx-box a img{
-    width: 270px;height: 210px;
+    height: 210px;
 }
 /*最新课程结束 */
+/* 热门推荐开始 */
+.rmtj{
+    padding-top: 30px;
+}
+.rm-box a{
+    width: 210px;height: 190px;margin: 20px 15px;
+}
+.rm-box a img{
+    height: 160px;
+}
+/* 热门推荐结束 */
