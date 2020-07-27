@@ -185,4 +185,11 @@ nav .nav-box{
 .rm-box a img{
     height: 160px;
 }
+.rm-nav a{
+    display: block;width: 120px;height: 30px;line-height: 30px;
+    text-align: center;float: left;
+}
+.rm-nav .rm-a{
+    background: blueviolet;color: #fff;
+}
 /* 热门推荐结束 */
