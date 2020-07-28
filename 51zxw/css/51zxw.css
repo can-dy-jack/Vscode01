@@ -192,5 +192,19 @@ nav .nav-box{
 .rm-nav .rm-a{
     background: blueviolet;color: #fff;
 }
-
 /* 热门推荐结束 */
+/* 课程分类开始 */
+.kcfl .kc-box .kc-b{
+    width: 210px;height: 190px;margin: 20px 15px;
+}
+.kc-box .kc-b a img{
+    height: 160px;
+}
+.kc-box .kc-a{
+    width: 190px;height: 170px;
+    margin: 30px 35px 0 15px;
+}
+.kc-box .kc-a{
+    height: 170px;
+}
+/* 课程分类结束 */
