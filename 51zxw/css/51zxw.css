@@ -235,7 +235,8 @@ nav .nav-box{
 .rmzy a{
     display: block;width: 270px;height: 310px;
     float: left;
-    margin: 5px 10px;text-align: center;padding-top: 20px;
+    margin: 20px 15px;text-align: center;padding-top: 20px;
+    border-radius: 10px;
 }
 .rmzy .aa1{
     background-color:blue;
