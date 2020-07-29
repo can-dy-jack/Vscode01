@@ -231,3 +231,46 @@ nav .nav-box{
     color: #fff;
 }
 /* 课程分类结束 */
+/* 热门职业开始 */
+.rmzy a{
+    display: block;width: 270px;height: 310px;
+    float: left;
+    margin: 5px 10px;text-align: center;padding-top: 20px;
+}
+.rmzy .aa1{
+    background-color:blue;
+}
+.rmzy .aa2{
+    background-color: #00aeff;
+}
+.rmzy .aa3{
+    background-color: #ca3333;
+}
+.rmzy .aa4{
+    background-color: rgb(161, 161, 36);
+}
+.rmzy a img{
+    width: 200px;height: 200px;border-radius: 50%;
+}
+.rmzy a p{
+    color: #fff;font-size: 25px;padding-top: 20px;
+}
+/* 热门职业结束 */
+/* 名师简介开始 */
+.msjj{
+    padding: 20px 0 40px 0;
+}
+.ms-box a{
+    display: block;width: 270px;height: 310px;background-color: #e7e7e7;
+    float: left;margin: 20px 15px;padding-top: 40px;text-align: center;
+}
+.ms-box a img{
+    width: 150px;height: 150px;border-radius: 50%;
+}
+.ms-box a .p1{
+    font-size: 20px;line-height: 40px;padding-top: 20px;
+}
+.ms-box a .p2{
+    color: #6b6b6b;
+}
+/* 名师简介结束 */
