@@ -323,3 +323,15 @@ footer .f-p6{
     text-align: center;
 }
  /* 页面尾部结束 */
+ /* 左侧浮动窗口开始 */
+.fd{
+    width: 66px;text-align: center;
+}
+.fd h4{
+    color:#5a98de;margin-bottom: 14px;
+}
+.fd a{
+    display: block;width: 66px;height: 66px;border-radius: 50%;
+    box-shadow: 0 0 8px #ccc;margin-bottom: 16px;padding-top: 10px;
+}
+ /* 左侧浮动窗口结束 */
