@@ -275,3 +275,51 @@ nav .nav-box{
     color: #6b6b6b;
 }
 /* 名师简介结束 */
+/* 页面尾部开始 */
+footer{
+    padding: 20px 0;
+}
+footer p{
+    padding: 8px 0;
+}
+footer .f-p1 b{
+    display: inline-block;width: 80px;text-align: center;
+    margin: 0 20px;
+}
+footer .f-p1 span{
+    margin: 10px;font-size: 0.9em;
+}
+footer .f-p2 b{
+    display: inline-block;width: 80px;text-align: center;
+    margin: 0 20px;
+}
+footer .f-p2 a{
+    margin: 10px;
+}
+footer .f-p2 a img{
+    height: 30px;
+}
+footer .f-p3{
+    padding-left: 125px;padding-right: 100px;word-break: keep-all;
+}
+footer .f-p3 a{
+    margin: 0 5px;font-size: 0.9em;
+}
+footer .f-p4{
+    text-align: center;
+}
+footer .f-p4 a{
+    display: inline-block;width: 70px;height: 20px;line-height: 20px;
+    background-color: #3899dd;color: #f3f3f3;overflow: hidden;
+    border-radius: 4px;
+}
+footer .f-p5{
+    text-align: center;font-size: 0.9em;
+}
+footer .f-p5 img{
+    vertical-align: middle;
+}
+footer .f-p6{
+    text-align: center;
+}
+ /* 页面尾部结束 */
