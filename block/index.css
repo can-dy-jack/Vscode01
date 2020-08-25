@@ -1,15 +1,41 @@
 /* CSS Document */
 .box {
-  position: relative;
+  position: relative;font-family: microsoft yahei;
 }
+/* 左侧 */
 .box .part1 {
-  position: absolute;
-  width: 400px;
-  background-color: #cccccc;
+  position: fixed;top: 10px;left: 20px;
+  width: 300px;
+  background-color: #ffffff;
+  font-size:1.2em;
 }
+.part1 a{
+  text-decoration: none;color: black;
+}
+.part1 a p{
+  white-space: pre;padding-left: 20px;background-color: #dddddd;
+  border-left: 5px solid #999999;height: 35px;line-height: 35px;
+}
+.part1 img{
+  width: 100px;height: 100px;margin: 0 90px;
+}
+.part1 span{
+  background-color: burlywood;position: fixed;left: 100px;bottom: 80px;
+  height: 30px;width: 100px;text-align: center;
+}
+/* 左侧 */
+/* 右侧 */
 .box .part2 {
   position: absolute;
-  margin-left: 400px;
-  border-left-color: black;
-  background-color: azure;
+  margin-left: 300px;padding: 0 10px;
+  background-color: #eeeeee;
+  border-left: 10px solid #888888;
+  text-indent: 35px;
 }
+.box .part2 h1{
+  text-align: center;font-size: 2em;
+}
+.box .part2{
+  line-height: 30px;
+}
+/* 右侧 */
