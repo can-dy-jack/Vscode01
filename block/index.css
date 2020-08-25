@@ -20,7 +20,7 @@
   width: 100px;height: 100px;margin: 0 90px;
 }
 .part1 span{
-  background-color: burlywood;position: fixed;left: 100px;bottom: 80px;
+  background-color: burlywood;top: 80px;margin-left: 90px;
   height: 30px;width: 100px;text-align: center;
 }
 /* 左侧 */
@@ -29,7 +29,7 @@
   position: absolute;
   margin-left: 300px;padding: 0 10px;
   background-color: #eeeeee;
-  border-left: 10px solid #888888;
+  border-left: 5px solid #888888;
   text-indent: 35px;
 }
 .box .part2 h1{
