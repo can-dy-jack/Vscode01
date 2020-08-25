@@ -38,4 +38,9 @@
 .box .part2{
   line-height: 30px;
 }
+.part2 .img2 img{
+  position: fixed;right: -20px;bottom: -20px;
+  float: none;
+  height: 300px;width: 300px;
+}
 /* 右侧 */
