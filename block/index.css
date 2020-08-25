@@ -1,0 +1,15 @@
+/* CSS Document */
+.box {
+  position: relative;
+}
+.box .part1 {
+  position: absolute;
+  width: 400px;
+  background-color: #cccccc;
+}
+.box .part2 {
+  position: absolute;
+  margin-left: 400px;
+  border-left-color: black;
+  background-color: azure;
+}
