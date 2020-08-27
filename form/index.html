@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册页面</title>
+    <style>
+        .box table {
+            width: 600px;margin: 20px auto;border-collapse: collapse;
+            background-color: aliceblue;line-height: 40px;padding: 10px;
+            font-size: 1.2em
+        }
+        .box table td{
+            border: 1px solid #cccccc;
+        }
+        .box table caption{
+			padding: 10px;font: bold 1.2em/1.8 microspft yahei;
+		}
+        .box table .form1{
+            text-align: right;
+        }
+        input:invalid{background-color: red; color: #fff;}
+    </style>
+</head>
+<body>
+    <div class="box">
+    <form action="" method="get" enctype="application/x-www-form-urlencoded">
+        <table>
+        <caption>用户注册</caption>
+        <tr>
+            <td class="form1">姓名：</td>
+            <td><input type="text" pattern="[\u4e00-\u9fa5]{2,}" title="请输入您的真实姓名，至少两个字" placeholder="真实姓名" required>必填字段*</td>
+        </tr>
+        <tr>
+            <td class="form1">昵称：</td>
+            <td><input type="text" pattern="[\u4e00-\u9fa5]" title="至少两个数字" required>必填字段*</td>
+        </tr>
+        <tr>
+            <td class="form1">密码：</td>
+            <td><input type="text" title="密码长度为6-20位，且不能有中文" pattern="\w{6,20}" required></td>
+        </tr>
+        <tr>
+            <td class="form1">性别：</td>
+            <td>男：<input type="checkbox">女：<input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="form1">上传照片：</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td class="form1">出生日期：</td>
+            <td><input type="date" placeholder="年/月/日"></td>
+        </tr>
+        <tr>
+            <td class="form1">电子邮箱：</td>
+            <td><input type="email" required></td>
+        </tr>
+        <tr>
+            <td class="form1">联系电话：</td>
+            <td><input type="number" required></td>
+        </tr>
+        <tr>
+            <td class="form1">出生地：</td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+        <td colspan="2" align="center">
+                <input type="submit">
+                <input type="reset">
+        </td>
+        </tr>
+    </table>
+    </form>
+</div>
+</body>
+</html>
